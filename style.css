@@ -1,0 +1,177 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Lora', serif;
+}
+.clearfix::before{
+    content: "";
+    display: block;
+    clear: both;
+}
+.fixwidth{
+    width: 92%;
+    margin: auto;
+}
+.webpage{
+    background-color: #22c3a3;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo h1{}
+.menu{
+    width: 70%;
+    text-align: right;
+    float: right;
+
+}
+.menu ul{
+    list-style: none;
+   margin-bottom: 0;
+}
+.menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.menu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    padding: 0 15px;
+    line-height: 38px;
+}
+/* slider */
+.slider{
+    background: url(https://i.ibb.co/br3RhRj/header-bg01.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 170px 0;
+    color: white;
+    letter-spacing: 2px;
+}
+.slider h1{
+
+}
+.slider h4{}
+.slider a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 30px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 18px;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+}
+.slider a:hover{
+    color: black;
+}
+.slider a::before{
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    position: absolute;
+    border-radius: 5px;
+    background-color: white;
+    z-index: -1;
+    transition: .5s;
+
+}
+.slider a:hover::before{
+    width: 100%;
+}
+/* service */
+.service{
+    border-bottom: 2px solid #22c3a3;
+}
+.servicediv{
+    text-align: center;
+    width: 20%;
+    float: left;
+    margin: 2.5%;
+    box-sizing: border-box;
+}
+.servicediv i{
+    font-size: 30px;
+    color:#22c3a3 ;
+    padding: 20px 0;
+
+}
+.servicediv h3{
+    font-weight: 400;
+    font-size: 24px;
+}
+.servicediv p{
+    font-size: 14px;
+    padding: 20px;
+
+}
+/* about */
+
+.info .image{
+    width: 45%;
+    float: left;
+}
+.info .image img{
+    max-width: 100%;
+}
+.info .detail{
+    width: 50%;
+    float: right;
+}
+h3{
+    text-transform: capitalize;
+    font-weight: 500;
+}
+h4{
+    text-transform: capitalize;
+}
+
+
+/* contact */
+.contact{
+    background-color: #f6f6f6;
+}
+.contactdiv {
+    text-align: center;
+    width: 30%;
+    float: left;
+    margin-top: 50px !important;
+    margin: 1.6%;
+}
+.contactdiv i{
+    font: 20px ;
+    color: #22c3a3;
+    padding: 10px;
+}
+/* footer  */
+
+.subfooter{
+    background-color: #22c3a3;
+}
+.subfooter ul{
+    list-style: none;
+    text-align: center;
+    padding: 15px 0;
+}
+.subfooter ul li {
+    display: inline-block;
+}
+.subfooter ul li a{
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    padding: 0 15px;
+    transition: .5s;
+   
+}
+.subfooter ul li a:hover{
+    color: blue;
+   
+}
